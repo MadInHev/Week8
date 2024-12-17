@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calulator Program</title>
+</head>
+<body>
+    
+
+    <h1>Grade Calulator Program</h1>
+    <div id="result"></div>
+
+    <script>
+        let score = prompt("Please enter the score 0-100:")
+        if(score >=80){
+            document.getElementById("result").innerHTML = "Grade: A";
+        }else if(score >=70){
+            document.getElementById("result").innerHTML = "Grade: B";
+        }else if(score >=60){
+            document.getElementById("result").innerHTML = "Grade: C";
+        }else if(score >=50){
+            document.getElementById("result").innerHTML = "Grade: D";
+        }else{
+            document.getElementById("result").innerHTML = "Grade: E";
+        }
+    </script>
+</body>
+</html>

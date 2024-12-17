@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>temp calc</h1>
+    <div id="result"></div>
+    
+    <script>
+
+        function toCelsius() {
+            let fahrenheit = prompt("enter fahrenheit")
+            let value =[(fahrenheit-32)*5]/9
+            document.getElementById("result").innerHTML = value.toFixed(2)
+        }
+        //toCelsius()
+        function sigma(){
+            return "Sigma"
+        }
+        alert(sigma())
+    </script>
+</body>
+</html>
